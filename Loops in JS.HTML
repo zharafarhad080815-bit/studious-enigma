@@ -1,0 +1,29 @@
+<!--In this activity, learn about the loops and how loops are useful in JS.-->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Loops in JS</title>
+    </head>
+    <body>
+        <h1 id="loops">Loops in JS</h1>
+        <p>This activity demonstrates the use of loops in JavaScript.</p>
+        <p id="result"></p>
+        <script>
+            // Example of using a for loop
+            let result = "";
+            for (let i = 1; i <= 5; i++) {
+                result += "Iteration " + i + "<br>"; // Concatenate the iteration number
+            }
+
+            // Display the result
+            document.getElementById("result").innerHTML = result;
+            let fruits=["Apple","Banana","Mango","Grapes"];
+            document.write("<br>List of Fruits:<br>");
+            for(let i=0;i<fruits.length;i++){
+                document.write(fruits[i]+"<br>");
+            }
+        </script>
+    </body>
+</html>

@@ -1,0 +1,32 @@
+<!--In this activity, learn what are the basic inbuilt string methods in JS.-->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Methods in JS</title>
+    </head>
+    <body>
+        <h1 id="methods">Methods in JS</h1>
+        <p>This activity demonstrates the use of basic inbuilt string methods in JavaScript.</p>
+        <p id="result"></p>
+        <script>
+            // Example of using string methods
+            let str = "Hello, World!";
+            let upperStr = str.toUpperCase(); // Convert to uppercase
+            let lowerStr = str.toLowerCase(); // Convert to lowercase
+            let lengthStr = str.length; // Get the length of the string
+
+            // Display the results
+            document.getElementById("result").innerHTML = 
+                "Original String: " + str + "<br>" +
+                "Uppercase: " + upperStr + "<br>" +
+                "Lowercase: " + lowerStr + "<br>" +
+                "Length: " + lengthStr;
+                let startwithstring=str.startsWith("Hello"); //checks if the string starts with "Hello"
+                let endwithstring=str.endsWith("World!"); //checks if the string ends with "World!"
+                document.write("<br>Does the string start with 'Hello'? "+startwithstring);
+                document.write("<br>Does the string end with 'World!'? "+endwithstring);
+        </script>
+    </body>
+</html>
